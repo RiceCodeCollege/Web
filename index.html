@@ -317,11 +317,11 @@
 	</footer>
 
 
-<div class="modal fade in" id="mainModal" tabindex="-1" role="dialog" aria-labelledby="mainModal" aria-hidden="false">
+<!--div class="modal fade in" id="mainModal" tabindex="-1" role="dialog" aria-labelledby="mainModal" aria-hidden="false">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-            <!--button type="button" class="close" data-dismiss="modal" aria-hidden="true">&amp;times;</button-->
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&amp;times;</button>
             <h4 class="modal-title" id="myModalLabel">Apologies</h4>
             </div>
             <div class="modal-body">
@@ -330,7 +330,15 @@
             </div>
     	</div>
   	</div>
-</div>
+
+var options = {
+    		"show" : "true",
+    		"backdrop": "static"
+		}
+		$('#mainModal').modal(options);	
+
+  	
+</div-->
 
 
 
@@ -343,11 +351,7 @@
 	<!-- Custom Theme JavaScript -->
 	<script>
 
-		var options = {
-    		"show" : "true",
-    		"backdrop": "static"
-		}
-		$('#mainModal').modal(options);		
+			
 
 
 
